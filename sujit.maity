@@ -1,0 +1,15 @@
+docker run --name sujit_maity -e POSTGRES_PASSWORD=Admin@123456 -d postgres
+
+
+
+
+docker run -p 8099:80 -e 'PGADMIN_DEFAULT_EMAIL=sujit.maity@npci.org.in' -e 'PGADMIN_DEFAULT_PASSWORD=***********' -d dpage/pgadmin4 --name pgadmin
+
+docker run --name sujit_maity -e POSTGRES_PASSWORD=************ -d postgres
+
+
+docker run -p 7770:50 -e 'PGADMIN_DEFAULT_EMAIL=kartikeya.mehta@npci.org.in' -e 'PGADMIN_DEFAULT_PASSWORD=Admin@123456' -d dpage/pgadmin4 --name pgadmin
+
+
+
+docker run -p 8099:80 -e 'PGADMIN_DEFAULT_EMAIL=************' -e 'PGADMIN_DEFAULT_PASSWORD=Admin@123456' -d dpage/pgadmin4 --name pgadmin
